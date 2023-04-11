@@ -39,7 +39,9 @@ function Carrousel({images}) {
             {
                 nombreImg > 1 && <img className="fleche fleche-droite" src={fleche} alt="Contenu suivant" onClick={imgSuivante}/>
             }
+            <div className="index">{`${imgAfficher + 1}/${nombreImg}`}</div>
         </div>
+        
     );
 }
 

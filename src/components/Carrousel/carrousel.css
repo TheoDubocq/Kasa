@@ -38,6 +38,14 @@
 .carrousel-img.actif {
     display: block;
 }
+.index {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    font-size: 18px;
+    }
 
 @media screen and (max-width: 1490px) {
     .carrousel {
@@ -58,5 +66,9 @@
 
     .carrousel-img {
         height: 255px;
+    }
+
+    .index {
+        font-size: 12px;
     }
 }
